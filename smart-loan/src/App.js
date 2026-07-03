@@ -1,14 +1,13 @@
-import { useState, useEffect, useRef, useCallback } from "react";
+import React, { useState, useEffect, useRef } from 'react';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
   RadarChart, Radar, PolarGrid, PolarAngleAxis,
   LineChart, Line, CartesianGrid, Legend,
-  AreaChart, Area, Cell, PieChart, Pie
+   Cell, PieChart, Pie
 } from "recharts";
 
 
 const EMP_SCORE = { Salaried: 8, 'Self-Employed': 0 };
-const PURPOSE_RATE = { Home: -0.5, Car: 0, Education: -0.25, Business: 0.5, Personal: 1 };
 
 function computeAll(d) {
   const dti = Math.min(100, (d.existing_emis / Math.max(d.monthly_income, 1)) * 100);
