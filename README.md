@@ -64,14 +64,6 @@ https://real-time-smart-loan-eligibility-advisor.onrender.com
 - Voting Ensemble
 
 
-
-## 👨‍💻 Author
-
-Ravi
-
-GitHub:
-https://github.com/mrravi112
-
 ## 📁 Files
 - SmartLoanAdvisor.jsx — Full React frontend (5 pages + chatbot + simulator)
 - backend_app.py — Flask API (/predict /simulate /analytics)
@@ -87,3 +79,12 @@ https://github.com/mrravi112
 - Plain-English rejection explanations + improvement tips
 - ROC curves, confusion matrix, radar chart analytics
 - AI chatbot with quick-suggestion buttons
+
+
+## 👨‍💻 Author
+
+Ravi
+
+GitHub:
+https://github.com/mrravi112
+
