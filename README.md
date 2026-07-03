@@ -1,4 +1,8 @@
-# 💎 Real-Time Smart Loan Eligibility Advisor
+# 🚀 Real-Time Smart Loan Eligibility Advisor
+
+An AI-powered loan eligibility prediction system built using Machine Learning, Flask, and React.
+
+
 ### Production-Grade AI + Explainable Intelligence Platform
 
 ## 🧠 5 ML Models + Ensemble
@@ -11,12 +15,62 @@
 | Neural Network (ANN) | 93.00% | 0.9831 |
 | **Ensemble (Weighted)** | **92.33%** | **0.9788** |
 
-## 🚀 Quick Start
-```bash
-pip install flask flask-cors scikit-learn pandas numpy joblib
-python dataset_generate.py && python model_train.py && python backend_app.py
-# Frontend: drop SmartLoanAdvisor.jsx into React project, npm install recharts
-```
+
+## 🌐 Live Demo
+
+**Frontend (Vercel):**
+https://real-time-smart-loan-eligibility-advisor-18377zz5u-mrravi11312.vercel.app/
+
+**Backend API (Render):**
+https://real-time-smart-loan-eligibility-advisor.onrender.com
+
+---
+
+## ✨ Features
+
+- Predict loan approval using Machine Learning
+- Explainable AI insights
+- Risk analysis
+- Interactive dashboard
+- Multiple ML models
+- Modern React UI
+- Flask REST API
+- Deployed on Vercel & Render
+
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- Flask
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
+- Joblib
+- Git & GitHub
+- Render
+- Vercel
+
+---
+
+## 🤖 Machine Learning Models
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+- Neural Network
+- Voting Ensemble
+
+
+
+## 👨‍💻 Author
+
+Ravi
+
+GitHub:
+https://github.com/mrravi112
 
 ## 📁 Files
 - SmartLoanAdvisor.jsx — Full React frontend (5 pages + chatbot + simulator)
