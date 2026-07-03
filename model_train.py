@@ -15,7 +15,7 @@ from sklearn.metrics import (accuracy_score, classification_report, confusion_ma
                               roc_auc_score, roc_curve, f1_score, precision_score, recall_score)
 from sklearn.neural_network import MLPClassifier
 
-MODEL_DIR = '/home/claude/smartloan/models'
+MODEL_DIR = 'models'
 os.makedirs(MODEL_DIR, exist_ok=True)
 
 def get_feature_names():
@@ -23,8 +23,7 @@ def get_feature_names():
             'loan_amount', 'purpose_encoded', 'existing_emis', 'dti', 'loan_tenure', 'bank_behavior']
 
 def train_all():
-    df = pd.read_csv('/home/claude/smartloan/dataset/loan_data.csv')
-
+    df = pd.read_csv('loan_data.csv')
     le_emp = LabelEncoder()
     le_purpose = LabelEncoder()
     df['employment_encoded'] = le_emp.fit_transform(df['employment_type'])

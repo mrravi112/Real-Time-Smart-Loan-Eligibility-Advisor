@@ -5,7 +5,7 @@ import joblib, json, numpy as np, os
 app = Flask(__name__)
 CORS(app)
 
-MD = '/home/claude/smartloan/models'
+MD = 'models'
 rf  = joblib.load(f'{MD}/random_forest.pkl')
 gb  = joblib.load(f'{MD}/gradient_boosting.pkl')
 nn  = joblib.load(f'{MD}/neural_network.pkl')
